@@ -25,10 +25,10 @@ public class ValuationBasisTest {
 			System.out.println("Silver Class");
 		} else if(result > 65 && result < 75) {
 			System.out.println("Bronze Class");
-	} else if(result >=0 && result <65) {
+		} else if(result >=0 && result <65) {
 		System.out.println("Member");
-	} else {
+		} else {
 		System.out.println("NO");
-	}
+		}
 	} 
 }
