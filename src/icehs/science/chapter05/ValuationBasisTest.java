@@ -6,7 +6,7 @@ public class ValuationBasisTest {
 		int  first = 10;
 		int second = 20;
 		int three = 40;
-		int four = 60;
+		int four = 50;
 		int fift = 80;
 		
 		double result = 0;
