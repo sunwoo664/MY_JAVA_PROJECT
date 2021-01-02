@@ -12,7 +12,8 @@ public class PrimeNumberTest {
 			} else if(i == firstNum) {
 				System.out.println(firstNum + "은 소수입니다");
 			}
-		}for(int i = 2; i <=26; i++ ) {
+		}
+		for(int i = 2; i <=26; i++ ) {
 			if(i !=secondNum && secondNum % i == 0) {
 				System.out.println(secondNum + "은 소수가 아닙니다.");
 				break;
@@ -20,13 +21,11 @@ public class PrimeNumberTest {
 				System.out.println(secondNum + "은 소수입니다.");
 			}
 		}
-		for(int i = 2; i <=10000; i++) { 
-			if (i != i && i % i == 0) {
-				System.out.println(i);
-			}
-		}
 		
+			
 	}
+		
+}
 	
 
-}
+
