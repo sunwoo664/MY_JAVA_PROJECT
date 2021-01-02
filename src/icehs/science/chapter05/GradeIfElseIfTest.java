@@ -3,7 +3,7 @@ package icehs.science.chapter05;
 public class GradeIfElseIfTest {
 
 	public static void main(String[] args) {
-		int score = 82;
+		int score = 62;
 		
 		if(score >= 90 &&  score <=100) {
 			System.out.println("A학점입니다.");			
