@@ -10,9 +10,12 @@ public static void main(String[] args) {
 	cho.printChocolateInfo();
 	
 	String chocolate = cho.getName();
-	int totalPirce = cho.calculateTotalPrice(20);
+	int totalPrice = cho.calculateTotalPrice(20);
 	
-	System.out.println(chocolate + " 초콜렛 20개 : " + totalPirce);
+	System.out.println(chocolate + " 초콜렛 20개 : " + totalPrice + "원");
 	cho.changeChocolateInfo("카페 커리쉬" , 2500);
-}
+	totalPrice = cho.calculateTotalPrice(15 , 10);
+	System.out.println(chocolate + " 초콜렛 15개 (10%할인) : " + totalPrice + "원");
+	cho.changeChocolateInfo("트리플 블랑", 2300 , "화이트");
+	}
 }
