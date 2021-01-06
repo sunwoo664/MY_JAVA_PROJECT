@@ -9,7 +9,4 @@ public class ProductTest {
 		Product product02 = new Product("а╬юлде", 3000);
 		product02.printProductInfo();
 	}
-	
-	
-
 }
