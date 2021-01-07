@@ -11,6 +11,26 @@ public class Account {
 		this.balance = balance;
 		this.interstRate = interstRate;
 	}
+	
+	
+	
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
+
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
+
+
+	public void setInterstRate(double interstRate) {
+		this.interstRate = interstRate;
+	}
+
+
 
 	public String getNumber() {
 		return number;
