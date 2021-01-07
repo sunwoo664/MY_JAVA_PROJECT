@@ -3,7 +3,7 @@ package iches.science.chapter07;
 public class publicationTest {
 
 	public static void main(String[] args) {
-		System.out.println("===== 출판물 정보를 세팅 합니다. =====" ); 
+		System.out.println("======= 출판물 정보를 세팅 합니다. =======" ); 
 		Publication pub1 = new Publication();
 		pub1.setPrice(-100);
 		pub1.setPage(-90);

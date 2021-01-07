@@ -40,11 +40,13 @@ public class Workshop04 {
         System.out.println("크림치즈 : " + creamCheesePrice + "원");
         System.out.println("=====================");
         int money = amerPrice + lattePrice + bagelPrice + creamCheesePrice;
+        double result01 = money * 0.01;
+        double result02 = money * 0.02;
         System.out.println("총 구매 금액 : " + money + "원");
         if(money >= 12000 && money < 30000) {
-        	System.out.println("포인트 적립 : " + money / 1/100 + "원");
-        }else if (money > 30000) {
-        	System.out.println("포인트 적립 : " + money / 2/100 + "원");
+        	System.out.println("포인트 적립 : " + (int)result01 + "원");
+        } else if (money > 30000) {
+        	System.out.println("포인트 적립 : " + (int)result02 + "원");
         }
         
     }

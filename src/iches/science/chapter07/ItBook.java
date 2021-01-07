@@ -30,7 +30,7 @@ public class ItBook {
 	}
 	
 	void printItBookInfo() {
-		System.out.println("제목 : " + this.title + ", 정가 : " + this.price + "원" + "할인율 : " + this.disountRate + "%, " + "할인가 : " + (int)(this.price * (100-this.disountRate) / 100) + "원");
+		System.out.println("제목 : " + this.title + " 정가 : " + this.price + "원, " + "할인율 : " + this.disountRate + "%, " + "할인가 : " + (int)(this.price * (100-this.disountRate) / 100) + "원");
 	}
 	
 }
