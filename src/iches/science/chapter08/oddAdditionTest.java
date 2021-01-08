@@ -8,11 +8,11 @@ public class oddAdditionTest {
 		for(int i = 0; i < number.length; i++) {
 			if(number[i]  % 2 ==1) {
 				sum += number[i];
-				System.out.println(number[i] + " ");
+				System.out.print(number[i] + " ");
 			}
 		}
 		System.out.println();
-		System.out.println("홀수들의 합계는" + sum + "입니다.");
+		System.out.println("홀수들의 합계는 " + sum + "입니다.");
 	}
 
 }

@@ -51,7 +51,7 @@ public class Account {
 	}
 	
 	public void printAccountInfo() {
-		System.out.println("°èÁÂ¹øÈ£ : " + this.number + " / ÀÜ¾× : " + this.balance + " / ÀÌÀ²" + this.interstRate );
+		System.out.println("°èÁÂ¹øÈ£ : " + this.number + " / ÀÜ¾× : " + this.balance + " / ÀÌÀ²" + this.interstRate + "%" );
 	}
 	
 }
