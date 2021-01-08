@@ -13,5 +13,6 @@ public class ConditionElseEx {
 			System.out.println("집으로 가세요.");
 		}
 	}
+	
 
 }
