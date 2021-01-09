@@ -19,7 +19,7 @@ public class Ship extends Vehicle {
 	}
 
 
-
+	@Override
 	public void displayInfo() {
 		System.out.println("-------------------------------------------");
 		super.displayInfo();

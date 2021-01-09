@@ -17,7 +17,7 @@ public class Car extends Vehicle {
 		this.mileage = mileage;
 	}
 
-
+	@Override
 	public void displayInfo() {
 		System.out.println("-------------------------------------------");
 		super.displayInfo();
